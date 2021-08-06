@@ -1,0 +1,24 @@
+[package]
+name = "mc_epic_proxy"
+version = "0.1.0"
+authors = ["Exopteron <exopteron@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.5.8"
+chrono = "0.4.19"
+rsa-der = "0.2.1"
+rsa = "0.4.0"
+rand = "0.8.3"
+integer-encoding = "3.0.2"
+sha-1 = "0.9.6"
+num-bigint = { version = "0.4.0", features = ["rand"] }
+num-bigint-dig = "0.7.0"
+num = "0.4.0"
+aes = "0.7.3"
+cfb8 = "0.7.1"
+native-tls = "0.2.7"
+serde_json = "^1.0.59"
